@@ -66,29 +66,28 @@ button{
 
 
 @media (max-width:600px){
-    .container{
-        background-color: #1d2229;
-    }
     .calculator{
-        height: 85%;
-        width: 90%;
+        height: 100%;
+        width: 100%;
+        padding: 7vw
     }
     .calculator input{
-        height: 30vw;
-        width: 80vw;
+        height: 50vw;
+        width: 86vw;
         border-radius: 5px;
         font-size: 12vw;
+        background-color: #33333367;
     }
     button{
-        height: 17vw;
-        width: 17vw;
-        margin: 1vw;
+        height: 18vw;
+        width: 18vw;
+        margin: 1.35vw;
         border-radius: 20px;
-        font-size: 7vw;
+        font-size: 8vw;
         font-weight: 500;
     }
     .equal{
         background-color: #f89b10b7;
-        width: 36vw;
+        width: 39.7vw;
     }
 }
